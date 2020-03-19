@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'index',
-    'search'
+    'search',
+    'user',
+    'yincotoken'
 ]
 
 MIDDLEWARE = [
