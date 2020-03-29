@@ -22,4 +22,6 @@ urlpatterns = [
     url(r'^test_cors$', views.test_cors),
     url(r'^v1/users', include('user.urls')),
     url(r'^v1/blog', include('blog.urls')),
+    url(r'^v1/index', include('index.urls')),
+    url(r'^v1/search', include('search.urls')),
 ]
